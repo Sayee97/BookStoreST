@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/d1"
+    android:orientation="vertical"
+    tools:context="com.example.sayee.bookstoreassign7.MainActivity">
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="FOR BIBLIOPHILES"
+    android:textSize="25dp"
+    android:textColor="#000"
+    android:paddingTop="20dp"
+    android:textStyle="bold"
+    android:layout_marginLeft="75dp"
+    android:textAlignment="center"
+    android:gravity="center_vertical"
+
+    />
+    <Spinner
+        android:id="@+id/spinner1"
+        android:layout_marginTop="56dp"
+       android:padding="50dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textAlignment="center"
+android:layout_gravity="center_horizontal"
+
+       />
+
+    <Button
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/button"
+       android:layout_marginTop="175dp"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="buttonC"
+        android:background="#000"
+        android:textColor="#fff"
+        android:text="Submit" />
+
+
+</LinearLayout>
